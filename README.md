@@ -2,8 +2,7 @@
 Application for sharing tips between people
 
 # LAUNCH APP
-1. Open docker;
-2. Use "docker-compose up" command in terminal;
+1. https://adviser-web.herokuapp.com/
 
 # Requests
 {
@@ -19,30 +18,30 @@ or
 # USERS:
 
 # GET (authenticate)
-http://localhost:8080/users/authenticate
+https://adviser.herokuapp.com/users/authenticate
 # GET (users)
-http://localhost:8080/users
+https://adviser.herokuapp.com/users
 # GET USER BY ID
-http://localhost:8080/users/1
+https://adviser.herokuapp.com/users/1
 # POST (user)
-http://localhost:8080/users
+https://adviser.herokuapp.com/users
 # PUT (user)
-http://localhost:8080/users
+https://adviser.herokuapp.com/users
 # DELETE (user)
-http://localhost:8080/users/1
+https://adviser.herokuapp.com/users/1
 
 # TIPS:
 
 # GET (tips)
-http://localhost:8080/tips
+https://adviser.herokuapp.com/tips
 # GET TIP BY ID
-http://localhost:8080/tips/1
+https://adviser.herokuapp.com/tips/1
 # POST (tip)
-http://localhost:8080/tips
+https://adviser.herokuapp.com/tips
 # PUT (tip)
-http://localhost:8080/tips
+https://adviser.herokuapp.com/tips
 # DELETE (tip)
-http://localhost:8080/tips/1
+https://adviser.herokuapp.com/tips/1
 
 #REMARKS
 1. Some features are available exclusively to the admin;
