@@ -13,7 +13,7 @@ function RandomTip() {
 
     const getTips = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/tips/random/", {
+        const response = await axios.get("https://adviser.herokuapp.com/tips/random/", {
           headers: {
             signal: controller.signal,
             Authorization: `Bearer ${JSON.parse(localStorage.jwtToken)}`,

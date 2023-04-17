@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const REST_URL = "http://localhost:8080/users/";
-const REST_REGISTER_URL = "http://localhost:8080/users/register";
+const REST_URL = "https://adviser.herokuapp.com/users/";
+const REST_REGISTER_URL = "https://adviser.herokuapp.com/users/register";
 
 export const saveUser = async (
   username,

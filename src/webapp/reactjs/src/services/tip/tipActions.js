@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_URL = "http://localhost:8080/tips/";
+const REST_URL = "https://adviser.herokuapp.com/tips/";
 
 export const saveTip = async (advice, description) => {
   try {

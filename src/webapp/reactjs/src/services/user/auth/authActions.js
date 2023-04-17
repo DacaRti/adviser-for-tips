@@ -1,7 +1,7 @@
 import * as AT from "./authTypes";
 import axios from "axios";
 
-const AUTH_URL = "http://localhost:8080/users/authenticate/";
+const AUTH_URL = "https://adviser.herokuapp.com/users/authenticate/";
 
 export const authenticateUser = (username, password) => async (dispatch) => {
   dispatch(loginRequest());

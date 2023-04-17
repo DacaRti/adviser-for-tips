@@ -34,7 +34,7 @@ function AddUser() {
 
     const getRoles = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/users/roles/", {
+        const response = await axios.get("https://adviser.herokuapp.com/users/roles/", {
           headers: {
             signal: controller.signal,
             Authorization: `Bearer ${JSON.parse(localStorage.jwtToken)}`,

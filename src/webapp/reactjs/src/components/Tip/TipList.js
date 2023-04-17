@@ -17,7 +17,7 @@ function TipList() {
 
     const getTips = async () => {
       try {
-        const response = await axios.get("http://localhost:8080/tips/", {
+        const response = await axios.get("https://adviser.herokuapp.com/tips/", {
           headers: {
             signal: controller.signal,
             Authorization: `Bearer ${JSON.parse(localStorage.jwtToken)}`,
