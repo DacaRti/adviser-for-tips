@@ -1,0 +1,1 @@
+frontend: cd src/webapp/reactjs && PORT=3001 npm start
